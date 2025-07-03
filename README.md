@@ -10,6 +10,11 @@ This is a simple implementation of **Retrieval-Augmented Generation (RAG)** usin
   - We store text embeddings in **Pinecone**.
   - Documents are loaded, embedded, stored in Pinecone, retrieved when a query is made, and then passed to Gemini for final answer generation.
 
+## Dataset
+
+We use a medical text dataset from Kaggle for demonstration:
+> [Medical Text Dataset on Kaggle](https://www.kaggle.com/datasets/chaitanyakck/medical-text)
+
 ## Features
 - Document loading & preprocessing
 - Embedding generation
@@ -25,5 +30,5 @@ This is a simple implementation of **Retrieval-Augmented Generation (RAG)** usin
 ## Installation
 
 ```bash
-git clone https://github.com/nguyen1oc/RAG_Tutorial
+git clone https://github.com/nguyen1oc/RAG_Tutorial.git
 cd RAG_Tutorial
